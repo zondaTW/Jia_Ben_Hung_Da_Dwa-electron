@@ -1,0 +1,25 @@
+body .page-button{
+  -webkit-app-region: no-drag;
+}
+
+body .page-header{
+  text-align: center;
+  font-family: Microsoft JhengHei;
+  line-height:5px;
+  width:175px;
+  height:90px;
+  -webkit-app-region: drag;
+}
+
+body .page-header img{
+  width: 40px;
+  height: 40px;
+}
+
+body .page-body{
+  -webkit-app-region: no-drag;
+}
+
+body .page-footer span{
+  width:175px;
+}
