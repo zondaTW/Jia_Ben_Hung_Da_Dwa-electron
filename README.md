@@ -32,6 +32,9 @@
 ### packager
 `npm run build`  
 
+### installer
+`npm run pack`  
+path: `C:\Users\{username}\AppData\Local\Jia_Ben_Hung_Da_Dwa`
 
 ## Reference
 [Electron - 新手入門 - 做一個鬧鐘吧](https://dotblogs.com.tw/explooosion/2018/03/25/181604)  
