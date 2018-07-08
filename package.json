@@ -4,11 +4,13 @@
   "description": "Jia_Ben_Hung_Da_Dwa",
   "main": "js/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . Jia_Ben_Hung_Da_Dwa --out Jia_Ben_Hung_Da_Dwa --overwrite --platform=win32 --arch=x64 --icon=icon/chef.ico --prune=true --squirrel-install --electron-version=2.0.4 --ignore=Jia_Ben_Hung_Da_Dwa-win32-x64 --version-string.CompanyName=zonda --version-string.ProductName=Jia_Ben_Hung_Da_Dwa"
   },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.4"
+    "electron": "^2.0.4",
+    "electron-packager": "^12.1.0"
   },
   "dependencies": {
     "electron-json-storage-sync": "^1.1.1",

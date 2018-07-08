@@ -1,5 +1,6 @@
 const notifier = require('node-notifier')
 const moment = require('moment')
+const path = require('path')
 
 var whenToRing = {
     "dinbendon_time": new Date().setHours(10, 10, 00),
@@ -7,9 +8,9 @@ var whenToRing = {
     "dessert_time": new Date().setHours(15, 10, 00)
 };
 var dinbendon_url = "https://dinbendon.net/do/";
-var dinbendon_icon = "icon/menu.png";
-var lunch_icon = "icon/rice.png";
-var dessert_icon = "icon/creme-caramel.png";
+var dinbendon_icon = path.join(__dirname, '../icon/menu.png');
+var lunch_icon = path.join(__dirname, '../icon/rice.png');
+var dessert_icon = path.join(__dirname, '../icon/creme-caramel.png');
 
 let now_time;
 let alarm_time;
@@ -62,7 +63,10 @@ function onUrlHtmlChange(event) {
 
 function set_alarm_time() {
     let now_time = new Date().getTime();
-    if (now_time < whenToRing.lunch_time) {
+    if (now_time < whenToRing.dinbendon_time) {
+        alarm_time = moment(whenToRing.dinbendon_time).format('HH:mm:ss');
+        alarm_notice = dinbendon_notice;
+    } else if (now_time < whenToRing.lunch_time) {
         alarm_time = moment(whenToRing.lunch_time).format('HH:mm:ss');
         alarm_notice = lunch_notice;
     } else if (now_time < whenToRing.dessert_time) {

@@ -5,7 +5,8 @@ const url = require('url')
 
 let win;
 let appIcon;
-const iconPath = 'icon/chef.png';
+const iconPath = path.join(__dirname, '../icon/chef.png');
+const indexPath = path.join(__dirname, '../html/index.html');
 
 function createWindow() {
     // Create the browser window.
@@ -18,7 +19,7 @@ function createWindow() {
         resizable: false
     });
 
-    win.loadFile('html/index.html');
+    win.loadFile(indexPath);
 
     createTray();
 

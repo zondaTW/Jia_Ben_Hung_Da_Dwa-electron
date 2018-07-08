@@ -25,12 +25,16 @@
 
 ## 使用方式
 
+### npm
 `npm install`  
 `npm start`  
 
-之後再補上packer方式。　　
+### packager
+`npm run build`  
+
 
 ## Reference
 [Electron - 新手入門 - 做一個鬧鐘吧](https://dotblogs.com.tw/explooosion/2018/03/25/181604)  
+[[electron學習筆記]electron安裝檔打包攻略](http://a091234765.pixnet.net/blog/post/402437864-[electron學習筆記]electron安裝檔打包攻略)  
 
 圖片來源：<http://www.flaticon.com/packs/food-and-drinks-16>  
