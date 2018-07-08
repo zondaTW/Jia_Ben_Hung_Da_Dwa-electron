@@ -39,6 +39,7 @@ path: `C:\Users\{username}\AppData\Local\Jia_Ben_Hung_Da_Dwa`
 ## Reference
 [Electron - 新手入門 - 做一個鬧鐘吧](https://dotblogs.com.tw/explooosion/2018/03/25/181604)  
 [[electron學習筆記]electron安裝檔打包攻略](http://a091234765.pixnet.net/blog/post/402437864-[electron學習筆記]electron安裝檔打包攻略)  
+[Creating a Windows Distribution of an Electron App using Squirrel](http://mylifeforthecode.com/creating-a-windows-distribution-of-an-electron-app-using-squirrel/)  
 
 圖片來源：<http://www.flaticon.com/packs/food-and-drinks-16>  
 
