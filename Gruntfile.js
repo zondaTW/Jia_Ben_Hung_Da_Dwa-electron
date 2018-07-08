@@ -3,7 +3,7 @@ var grunt = require('grunt');
 grunt.config.init({
     pkg: grunt.file.readJSON('./Jia_Ben_Hung_Da_Dwa/package.json'),
     'create-windows-installer': {
-        ia32: {
+        x64: {
             appDirectory: './Jia_Ben_Hung_Da_Dwa/Jia_Ben_Hung_Da_Dwa-win32-x64',
             outputDirectory: './Jia_Ben_Hung_Da_Dwa/installer64',
             authors: 'zonda',
