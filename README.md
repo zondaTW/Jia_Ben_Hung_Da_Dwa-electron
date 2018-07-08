@@ -38,3 +38,6 @@
 [[electron學習筆記]electron安裝檔打包攻略](http://a091234765.pixnet.net/blog/post/402437864-[electron學習筆記]electron安裝檔打包攻略)  
 
 圖片來源：<http://www.flaticon.com/packs/food-and-drinks-16>  
+
+# note
+build完後，要重開機，要不然exe檔的icon圖示不會換。  
